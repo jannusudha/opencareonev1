@@ -1,0 +1,2 @@
+cd C:\Users\MANDA\eclipse-workspace\opencareonev1
+mvn clean test

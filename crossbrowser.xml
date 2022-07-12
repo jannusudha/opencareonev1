@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="opencareonev1" parallel="tests" thread-count="2">
+
+<test name="Chrome Test">
+<parameter name="browser" value="chrome"/>
+<classes>
+    <class name="testCases.TestCase_001_AccountRegistration">
+    </class>
+</classes>
+
+</test>
+
+
+<test name="Edge Test">
+<parameter name= "browser"  value="edge">
+<classes>
+   <class name="testCases.TestCase_001_AccountRegistration">
+   </class> 
+</classes>
+
+</parameter>
+
+</test>
+
+
+<test name="firefox Tests">
+<parameter name="browser" value="firefox">
+<classes>
+    <class name="testCases.TestCase_001_AccountRegistration">
+    </class>
+</classes>
+
+
+</parameter>
+</test>
+
+
+
+</suite>
